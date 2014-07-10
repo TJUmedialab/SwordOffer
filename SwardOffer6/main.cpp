@@ -1,5 +1,6 @@
 #include <iostream>
 #include <assert.h>
+#include <fstream>
 using namespace std;
 
 struct BinaryTreeNode
@@ -62,14 +63,15 @@ int main()
 	int *forwardSeq = NULL;
 	int *middleSeq = NULL;
 	int *backwardSeq = NULL;
-	while (cin >> count && count != 0){
+	ifstream dataFile("data.txt");
+	while (dataFile >> count && count != 0){
 		forwardSeq = new int[count];
 		middleSeq = new int[count];
 		for (int i = 0; i < count; i ++) {
-			cin >> forwardSeq[i];
+			dataFile >> forwardSeq[i];
 		}
 		for (int i = 0; i < count; i++) {
-			cin >> middleSeq[i];
+			dataFile >> middleSeq[i];
 		}
 		BinaryTreeNode* root = getBackwardTree(forwardSeq, middleSeq, count);
 		outputBackwardSeq(root);

@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwardOffer6", "SwardOffer6\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwardOffer7", "SwardOffer7\SwardOffer7.vcxproj", "{DC4AB824-E2BA-4715-99D8-28D5EE9D5D28}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwordOffer8", "SwordOffer8\SwordOffer8.vcxproj", "{D3B81094-FF91-4583-96F1-3B59257DD564}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwordOffer9", "SwordOffer9\SwordOffer9.vcxproj", "{1693CA0A-8073-4EAA-B24F-622CC33B462F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{DC4AB824-E2BA-4715-99D8-28D5EE9D5D28}.Debug|Win32.Build.0 = Debug|Win32
 		{DC4AB824-E2BA-4715-99D8-28D5EE9D5D28}.Release|Win32.ActiveCfg = Release|Win32
 		{DC4AB824-E2BA-4715-99D8-28D5EE9D5D28}.Release|Win32.Build.0 = Release|Win32
+		{D3B81094-FF91-4583-96F1-3B59257DD564}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3B81094-FF91-4583-96F1-3B59257DD564}.Debug|Win32.Build.0 = Debug|Win32
+		{D3B81094-FF91-4583-96F1-3B59257DD564}.Release|Win32.ActiveCfg = Release|Win32
+		{D3B81094-FF91-4583-96F1-3B59257DD564}.Release|Win32.Build.0 = Release|Win32
+		{1693CA0A-8073-4EAA-B24F-622CC33B462F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1693CA0A-8073-4EAA-B24F-622CC33B462F}.Debug|Win32.Build.0 = Debug|Win32
+		{1693CA0A-8073-4EAA-B24F-622CC33B462F}.Release|Win32.ActiveCfg = Release|Win32
+		{1693CA0A-8073-4EAA-B24F-622CC33B462F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
