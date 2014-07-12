@@ -15,11 +15,11 @@ void outputArray(){
 			firstZero = false;
 		}
 		if ( !firstZero ){
-			cout << num_array[i];
+			printf("%c", num_array[i]);
 		}
 	}
 	if (!firstZero){
-		cout << endl;
+		printf("\n");
 	}
 	
 }
