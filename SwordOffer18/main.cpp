@@ -1,0 +1,28 @@
+// judge whether A is a subtree of B
+#include <iostream>
+#include <assert.h>
+#include <fstream>
+using namespace std;
+
+struct BinaryTreeNode
+{
+	int					m_nValue;
+	BinaryTreeNode*		m_pLeft;
+	BinaryTreeNode*		m_pRight;
+	BinaryTreeNode(int m_value, BinaryTreeNode* lf = NULL, BinaryTreeNode* rt = NULL) :
+		m_nValue(m_value), m_pLeft(lf), m_pRight(rt) {}
+};
+
+bool sameTree(BinaryTreeNode* root1, BinaryTreeNode* root2){
+	if ( root1 == NULL && root2 == NULL ) {
+		return true;
+	} else if ( root1 != NULL && root2 != NULL ) {
+		if ( root1->m_nValue == root2->m_nValue ) {
+			
+		}
+	}
+	else
+	{
+		return false;
+	}
+}
