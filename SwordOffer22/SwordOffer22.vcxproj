@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1E0B4120-5508-4739-97AC-6CAABEE07E87}</ProjectGuid>
+    <ProjectGuid>{19E6481B-C4F1-446D-816B-AE2A83D732D0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SwordOffer21</RootNamespace>
-    <ProjectName>SwordOffer21</ProjectName>
+    <RootNamespace>SwordOffer22</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,9 +79,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
